@@ -61,10 +61,10 @@ class RealmsDocument extends Document {
           />
           <meta
             property="twitter:image"
-            content="https://raw.githubusercontent.com/solana-labs/governance-ui/main/public/img/logo-realms.png"
+            content="file:///C:/Users/jayed/OneDrive/Desktop/unamiDAO/governance-ui/public/img/logo-realms.png"
           />
           <meta name="theme-color" content="#ffffff" />
-          <meta name="twitter:title" content="Realms" />
+          <meta name="twitter:title" content="Unami DAO" />
           <meta property="og:type" content="website" />
           <meta name="twitter:card" content="summary" />
         </Head>
