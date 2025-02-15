@@ -5,12 +5,12 @@
 /* Theme */
 
 :root {
-  --primary-light: theme('colors.dark-theme.primary.light');
-  --primary-dark: theme('colors.dark-theme.primary.dark');
-  --secondary-1-light: theme('colors.dark-theme.secondary-1.light');
-  --secondary-1-dark: theme('colors.dark-theme.secondary-1.dark');
-  --secondary-2-light: theme('colors.dark-theme.secondary-2.light');
-  --secondary-2-dark: theme('colors.dark-theme.secondary-2.dark');
+  --primary-light: #C5A572;
+  --primary-dark: #DAA520;
+  --secondary-1-light: #C0C0C0;  /* Silver */
+  --secondary-1-dark: #A8A8A8;   /* Darker Silver */
+  --secondary-2-light: #265B13;
+  --secondary-2-dark: #16500E;
   --red: theme('colors.dark-theme.red');
   --green: theme('colors.dark-theme.green');
   --orange: theme('colors.dark-theme.orange');
@@ -28,12 +28,12 @@
 }
 
 [data-theme='Light'] {
-  --primary-light: theme('colors.light-theme.primary.light');
-  --primary-dark: theme('colors.light-theme.primary.dark');
-  --secondary-1-light: theme('colors.light-theme.secondary-1.light');
-  --secondary-1-dark: theme('colors.light-theme.secondary-1.dark');
-  --secondary-2-light: theme('colors.light-theme.secondary-2.light');
-  --secondary-2-dark: theme('colors.light-theme.secondary-2.dark');
+  --primary-light: #C5A572;
+  --primary-dark: #DAA520;
+  --secondary-1-light: #C0C0C0;  /* Silver */
+  --secondary-1-dark: #A8A8A8;   /* Darker Silver */
+  --secondary-2-light: #265B13;
+  --secondary-2-dark: #16500E;
   --red: theme('colors.light-theme.red');
   --green: theme('colors.light-theme.green');
   --orange: theme('colors.light-theme.orange');
@@ -267,14 +267,14 @@ body::-webkit-scrollbar-corner {
   border-image-slice: 1;
   border-image-source: linear-gradient(
     93deg,
-    #00c2ff 3%,
-    #00e4ff 50%,
-    #87f2ff 98%
+    #C5A572 3%,
+    #FFD700 50%,
+    #DAA520 98%
   );
 }
 
 .bg-brand-gradient {
-  @apply bg-gradient-to-r from-[#00C2FF] via-[#00E4FF] to-[#87F2FF];
+  @apply bg-gradient-to-r from-[#C5A572] via-[#FFD700] to-[#DAA520];
 }
 
 .transition-from-gradient-background::before {
@@ -316,7 +316,7 @@ body::-webkit-scrollbar-corner {
 }
 .border-gradient.transparent-fill {
   background-image: linear-gradient(var(--bkg-2), var(--bkg-2)),
-    linear-gradient(93deg, #00c2ff 3%, #00e4ff 50%, #87f2ff 98%);
+    linear-gradient(93deg, #C5A572 3%, #FFD700 50%, #DAA520 98%);
 }
 
 input[type='range'].with-gradient {
@@ -325,9 +325,9 @@ input[type='range'].with-gradient {
   border-radius: 5px;
   background-image: linear-gradient(
     to right,
-    #00c2ff 0%,
-    #00e4ff 50%,
-    #87f2ff 100%
+    #C5A572 0%,
+    #FFD700 50%,
+    #DAA520 100%
   );
   background-size: 50% 100%;
   background-repeat: no-repeat;
