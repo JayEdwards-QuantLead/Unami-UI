@@ -128,7 +128,7 @@ const ProposalTimer = ({
               <>
                 <div className="flex flex-col gap-1">
                   <div className="flex gap-1 items-center">
-                    <div className="rounded-sm h-2 w-2 bg-sky-500 inline-block" />
+                  <div className="rounded-sm h-2 w-2 inline-block" style={{ backgroundColor: '#C5A572' }} />
                     <div className="text-white">Unrestricted Voting Time</div>
                   </div>
                   <div>
@@ -191,14 +191,14 @@ export const TimerBar = ({
             style={{
               flex: countdown.total.secondsElapsed,
             }}
-            className="bg-sky-900"
+            className="bg-[]"
           />
           <Notch size={size} />
           <div
             style={{
               flex: countdown.total.secondsRemaining,
             }}
-            className="bg-sky-500"
+            className="bg-[#C5A572]"
           />
         </>
       ) : (
@@ -207,7 +207,7 @@ export const TimerBar = ({
             style={{
               flex: countdown.total.secondsElapsed,
             }}
-            className="bg-[#665425]"
+            className="bg-[#DAA520]"
           />
           <Notch size={size} />
           <div
