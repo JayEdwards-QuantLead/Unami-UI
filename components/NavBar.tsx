@@ -30,6 +30,7 @@ const NavBar = () => {
               </picture>
             </div>
           </Link>
+          </div>
         <div className="flex items-center justify-end space-x-2 md:space-x-4">
           <a
             className="border-b border-transparent items-center cursor-pointer -mb-[1px] transition-colors hidden sm:flex hover:border-white"
@@ -45,7 +46,6 @@ const NavBar = () => {
           <ConnectWalletButtonDynamic />
         </div>
       </div>
-    </div>
     </div>
   )
 }
