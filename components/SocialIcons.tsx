@@ -29,7 +29,7 @@ const SocialIcons = (props: Props) => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/Mythic-Project/governance-ui"
+          href="https://www.linkedin.com/in/unami-dao-64a8a0350/"
           className="shadow-sm duration-500 hover:scale-125 focus:scale-125"
         >
           <img src="/icons/github.svg" className="h-11" alt="github" />
