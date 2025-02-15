@@ -65,13 +65,13 @@ const Footer = () => {
         >
           <SocialIcons className="mb-5" />
           <div className="flex flex-col justify-center sm:space-x-2 text-center text-sm opacity-70 sm:flex-row sm:text-sm sm:text-left">
-            <div className="flex-shrink-0">© 2024 Realms Today Ltd</div>
+            <div className="flex-shrink-0">© 2025 Unami DAO Ltd</div>
             <span className="hidden sm:block mx-2">|</span>
-            <Link href="https://realms.today/terms" passHref>
+            <Link href="https://unamidao.com/terms" passHref>
               <a className="flex-shrink-0 whitespace-nowrap">Terms</a>
             </Link>
             <span className="hidden sm:block mx-2">|</span>
-            <Link href="https://realms.today/privacy-policy" passHref>
+            <Link href="https://unamidao.com/privacy-policy" passHref>
               <a className="flex-shrink-0 whitespace-nowrap">Privacy Policy</a>
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Footer = () => {
             'mr-2',
             'text-sm',
           )}
-          href="https://docs.realms.today/"
+          href="https://unamidao.com/whitepaper"
         >
           <ExternalLinkIcon className="w-4 h-4 mr-2 stroke-current" />
           <div>Read the Docs</div>

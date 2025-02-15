@@ -13,7 +13,7 @@ const SocialIcons = (props: Props) => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://discord.com/invite/VsPbrK2hJk"
+          href="https://discord.gg/fp6Tc7ZG"
           className="shadow-sm duration-500 hover:scale-125 focus:scale-125"
         >
           <img src="/icons/discord.svg" className="h-11" alt="discord" />
@@ -21,7 +21,7 @@ const SocialIcons = (props: Props) => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://twitter.com/RealmsDAOs"
+          href="https://x.com/UnamiDAO"
           className="shadow-sm duration-500 hover:scale-125 focus:scale-125"
         >
           <img src="/icons/twitter.svg" className="h-11" alt="twitter" />

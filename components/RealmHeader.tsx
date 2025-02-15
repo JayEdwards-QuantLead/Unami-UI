@@ -39,7 +39,7 @@ const RealmHeader = () => {
         } mb-2 md:mb-4`}
       >
         {isBackNavVisible ? (
-          <Link href={fmtUrlWithCluster('/realms')}>
+          <Link href="https://unamidao.com/">
             <a className="flex items-center text-sm transition-all default-transition text-fgd-2 hover:text-fgd-3">
               <ChevronLeftIcon className="w-6 h-6 " />
               Back
