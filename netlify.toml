@@ -1,9 +1,9 @@
 [build]
-  command = "yarn build"
+  command = "NODE_OPTIONS=--max-old-space-size=4096 yarn build"
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "18.19.0"
+  NODE_VERSION = "18.19.0"  # Backup in case .nvmrc is ignored
   PYTHON_VERSION = "3.12"
   SHARP_IGNORE_GLOBAL_LIBVIPS = "true"
 
