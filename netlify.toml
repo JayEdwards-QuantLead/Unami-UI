@@ -1,5 +1,5 @@
 [build]
-  command = "NODE_OPTIONS=--max-old-space-size=4096 yarn build"
+  command = "NODE_OPTIONS=--max-old-space-size=11264 yarn build"
   publish = "out"
 
 [build.environment]
